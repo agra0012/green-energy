@@ -1,0 +1,169 @@
+/*color:#8fbc8f, #228b22, #006400, #008000, #ffffff	 */
+
+body {
+    background-color: darkseagreen;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.heading {
+    background-color: forestgreen;
+    width: 100%;
+    line-height: 1.4rem;
+}
+
+h1 {
+    font-family: 'Vidaloka', serif;
+    color: darkgreen;
+}
+
+nav ul {
+    background-color: forestgreen;
+    list-style-type: none;
+    height: 3rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-family: 'Vidaloka', serif;
+    color: darkseagreen;
+    text-align: center;
+    padding: .7rem 3rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav ul li a:hover {
+    background-color: green;
+}
+
+.mast-head img {
+    width: 90%;
+    height: auto;
+    margin-left: 4rem;
+}
+
+button {
+    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    border: 3px solid darkgreen;
+    color: forestgreen;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+button:active {
+    background-color: forestgreen;
+    color: white;
+}
+
+.current-content h2 {
+    font-family: 'Vidaloka', serif;
+    color: darkgreen;
+}
+
+.current-content img {
+    width: 25%;
+    margin-right: 3rem;
+    float: left;
+}
+
+
+.current-content p {
+    font-family: 'Lato', sans-serif;
+    color: forestgreen;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 90%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin-left: -11rem;
+    margin-top: 10rem;
+}
+
+footer a {
+    margin-left: 10rem;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+@media (max-width: 60rem) {
+    .wrapper {
+        max-width: 60rem;
+        min-width: 30rem;
+    }
+}
+
+@media (max-width: 30rem) {
+    .wrapper {
+        max-width: 30rem;
+        width: 50%;
+        margin: 0 2rem 0 1rem;
+    }
+
+    nav ul {
+        overflow: visible;
+        background-color: darkseagreen;
+    }
+
+    nav ul li {
+        clear: both;
+    }
+    
+    nav ul li a {
+        color: forestgreen;
+    }
+    
+    .mast-head {
+        width: 80%;
+        margin-left: -2rem;
+        ;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    .current-content img {
+        margin-right: 3rem;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+
+    .current-content p {
+        font-family: 'Lato', sans-serif;
+        color: forestgreen;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    footer {
+        margin-right: 5rem;
+    }
+}
